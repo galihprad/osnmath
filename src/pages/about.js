@@ -5,8 +5,9 @@ import Seo from "../components/seo"
 
 const AboutPage = () => (
   <Layout>
-    <Seo title="Page two" />
+    <Seo title="About" />
     <h3>Tentang Author</h3>
+    <p>Galih Pradipto W</p>
     <p>Memiliki pengalaman sebagai peserta maupun pembimbing Olimpiade</p>
     <p>
       Beberapa prestasi sebagai peserta :
@@ -19,7 +20,11 @@ const AboutPage = () => (
       <br />
       Pelatnas Tahap 2 IMO 2013 dan 2014
     </p>
-    <p>kontak : galih.p.w.j@gmail.com</p>
+    <h3>Kontak</h3>
+    <p>
+      galih.p.w.j@gmail.com <br />
+      0858.7765.7708
+    </p>
   </Layout>
 )
 

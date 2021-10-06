@@ -8,7 +8,6 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    {/* <h2>Assalamu'alaikum</h2> */}
     <p>
       Assalamu'alaikum, selamat datang di osnmath.online
       <br />
@@ -18,13 +17,13 @@ const IndexPage = () => (
       Kami menyediakan materi pembelajaran Olimpiade Matematika, <br />
       dan juga mengadakan Try Out secara berkala
     </p>
-    <p>
+    <div style={{ marginTop: "100px" }}>
       Kontak:
       <br />
       galih.p.w.j@gmail.com
       <br />
-      0858 7765 7708
-    </p>
+      0858.7765.7708
+    </div>
     {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}

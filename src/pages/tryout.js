@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 
 const TryOutPage = () => (
   <Layout>
-    <Seo title="Page two" />
+    <Seo title="Try Out" />
     <h3>TryOut</h3>
     <p>Kami mengadakan Try Out Secara berkala pada akhir pekan</p>
     <p>Kami menjamin Try Out kami sesuai dengan standar dan aturan KSN</p>
@@ -38,6 +38,33 @@ const TryOutPage = () => (
     </p>
 
     <h3>Jadwal TryOut</h3>
+    <table id="customers">
+      <tr>
+        <th>Try Out</th>
+        <th>Level</th>
+        <th>Waktu</th>
+      </tr>
+      <tr>
+        <td>KSN-1</td>
+        <td>KSN (Nasional)</td>
+        <td>Sabtu, 23 Oktober 2021</td>
+      </tr>
+      <tr>
+        <td>KSN-2</td>
+        <td>KSN (Nasional)</td>
+        <td>Sabtu, 30 Oktober 2021</td>
+      </tr>
+      <tr>
+        <td>KSN-3</td>
+        <td>KSN (Nasional)</td>
+        <td>Sabtu, 6 November 2021</td>
+      </tr>
+    </table>
+    <h4>Ada pertanyaan?</h4>
+    <p>
+      galih.p.w.j@gmail.com <br />
+      0858.7765.7708
+    </p>
   </Layout>
 )
 

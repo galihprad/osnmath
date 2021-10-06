@@ -31,8 +31,8 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {/* {siteTitle} */}
-          osnmath<span style={{ fontWeight: "400" }}>online</span>
+          {/* {siteTitle} */}osnmath
+          <span style={{ fontWeight: "400" }}>online</span>
         </Link>
       </h1>
       <div
@@ -44,12 +44,7 @@ const Header = ({ siteTitle }) => (
         >
           Home
         </Link>
-        <Link
-          to="/about"
-          style={{ margin: "10px", color: "#FFFFFF", textDecoration: "none" }}
-        >
-          About
-        </Link>
+
         <Link
           to="/tryout"
           style={{ margin: "10px", color: "#FFFFFF", textDecoration: "none" }}
@@ -61,6 +56,12 @@ const Header = ({ siteTitle }) => (
           style={{ margin: "10px", color: "#FFFFFF", textDecoration: "none" }}
         >
           Materi
+        </Link>
+        <Link
+          to="/about"
+          style={{ margin: "10px", color: "#FFFFFF", textDecoration: "none" }}
+        >
+          About
         </Link>
       </div>
     </div>
