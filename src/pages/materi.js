@@ -3,13 +3,13 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const AboutPage = () => (
+const MateriPage = () => (
   <Layout>
     <Seo title="Page two" />
     <h3>Tentang Author</h3>
     <p>Memiliki pengalaman sebagai peserta maupun pembimbing Olimpiade</p>
     <p>
-      Beberapa prestasi sebagai peserta :
+      Beberapa prestasi :
       <br />
       Medali Perak OSN Matematika SMP 2010
       <br />
@@ -23,4 +23,4 @@ const AboutPage = () => (
   </Layout>
 )
 
-export default AboutPage
+export default MateriPage

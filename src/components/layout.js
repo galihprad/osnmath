@@ -33,14 +33,18 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <main
+          style={{
+            marginTop: `5rem`,
+          }}
+        >
+          {children}
+        </main>
         <footer
           style={{
             marginTop: `2rem`,
           }}
-        >
-          <a href="https://www.gatsbyjs.com">GatsbyJS</a>
-        </footer>
+        ></footer>
       </div>
     </>
   )

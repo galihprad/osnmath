@@ -14,7 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* color: hsla(0, 0%, 0%, 0.8); */
   color: #b0bec5;
-  background-color: #292a35;
+  background-color: #263238;
   font-family: "Libre Baskerville", georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -403,7 +403,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.8rem;
 }
 pre {
   margin-left: 0;
@@ -604,6 +604,10 @@ h3,
 h4,
 h5 {
   font-family: "Libre Baskerville";
+}
+
+h3 {
+  margin-top: 2rem;
 }
 @media only screen and (max-width: 480px) {
   html {

@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#9575cd`,
+      background: `#009688`,
       marginBottom: `1.45rem`,
       fontFamily: "Montserrat",
       // position: "fixed",
@@ -38,9 +38,30 @@ const Header = ({ siteTitle }) => (
       <div
         style={{ color: "#FFFFFF", display: "flex", justifyContent: "center" }}
       >
-        <div style={{ margin: "10px" }}>About</div>
-        <div style={{ margin: "10px" }}>TryOut</div>
-        <div style={{ margin: "10px" }}>Materi</div>
+        <Link
+          to="/"
+          style={{ margin: "10px", color: "#FFFFFF", textDecoration: "none" }}
+        >
+          Home
+        </Link>
+        <Link
+          to="/about"
+          style={{ margin: "10px", color: "#FFFFFF", textDecoration: "none" }}
+        >
+          About
+        </Link>
+        <Link
+          to="/tryout"
+          style={{ margin: "10px", color: "#FFFFFF", textDecoration: "none" }}
+        >
+          TryOut
+        </Link>
+        <Link
+          to="/materi"
+          style={{ margin: "10px", color: "#FFFFFF", textDecoration: "none" }}
+        >
+          Materi
+        </Link>
       </div>
     </div>
   </header>
