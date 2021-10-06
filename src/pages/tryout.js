@@ -7,15 +7,13 @@ const TryOutPage = () => (
   <Layout>
     <Seo title="Try Out" />
     <h3>TryOut</h3>
-    <p>Kami mengadakan Try Out Secara berkala pada akhir pekan</p>
-    <p>Kami menjamin Try Out kami sesuai dengan standar dan aturan KSN</p>
+    <p>Kami mengadakan TryOut Secara berkala pada akhir pekan.</p>
+    <p>Kami menjamin TryOut kami sesuai dengan standar dan aturan KSN.</p>
     <h3>Cara Mendaftar</h3>
-    <p>
-      Untuk mengikuti Try Out, peserta dikanai biaya Rp 5000/sekali try out.
-    </p>
+    <p>Untuk mengikuti TryOut, peserta dikenai biaya Rp 5.000/sekali TryOut.</p>
     <p>
       Peserta dapat membayar Rp 10.000, 15.000, 20.000, dst sekaligus, sehingga
-      mendapatkan kesempatan mengikuti tryout sebanyak 2x, 3x, 4x, dst
+      mendapatkan kesempatan mengikuti TryOut sebanyak 2x, 3x, 4x, dst
     </p>
     <p>Peserta dapat memilih sendiri TryOut mana yang akan diikuti</p>
     <p>
@@ -23,8 +21,8 @@ const TryOutPage = () => (
       ini
     </p>
     <p>
-      Peserta yang sudah pernah mengikuti tryout namun kesempatannya sudah habis
-      dan ingin mengikuti tryout lagi, cukup membayar biaya tryout lalu
+      Peserta yang sudah pernah mengikuti TryOut namun kesempatannya sudah
+      habis, dan ingin mengikuti TryOut lagi, cukup membayar biaya TryOut lalu
       konfirmasi ke nomor Admin Grup
     </p>
     <h3>Fasilitas</h3>
@@ -40,14 +38,14 @@ const TryOutPage = () => (
     <h3>Jadwal TryOut</h3>
     <table id="customers">
       <tr>
-        <th>Try Out</th>
+        <th>TryOut</th>
         <th>Level</th>
         <th>Waktu</th>
       </tr>
       <tr>
-        <td>KSN-1</td>
+        <td>KSN-3</td>
         <td>KSN (Nasional)</td>
-        <td>Sabtu, 23 Oktober 2021</td>
+        <td>Sabtu, 6 November 2021</td>
       </tr>
       <tr>
         <td>KSN-2</td>
@@ -55,15 +53,15 @@ const TryOutPage = () => (
         <td>Sabtu, 30 Oktober 2021</td>
       </tr>
       <tr>
-        <td>KSN-3</td>
+        <td>KSN-1</td>
         <td>KSN (Nasional)</td>
-        <td>Sabtu, 6 November 2021</td>
+        <td>Sabtu, 23 Oktober 2021</td>
       </tr>
     </table>
     <h4>Ada pertanyaan?</h4>
     <p>
       galih.p.w.j@gmail.com <br />
-      0858.7765.7708
+      0858 7765 7708
     </p>
   </Layout>
 )

@@ -23,7 +23,7 @@ const AboutPage = () => (
     <h3>Kontak</h3>
     <p>
       galih.p.w.j@gmail.com <br />
-      0858.7765.7708
+      0858 7765 7708
     </p>
   </Layout>
 )
