@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font: 112.5%/1.45em "Libre Baskerville", georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -9,8 +12,10 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  /* color: hsla(0, 0%, 0%, 0.8); */
+  color: #b0bec5;
+  background-color: #292a35;
+  font-family: "Libre Baskerville", georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -71,6 +76,7 @@ strong {
 dfn {
   font-style: italic;
 }
+
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -589,6 +595,15 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
+}
+h1 {
+  font-family: "Montserrat";
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Libre Baskerville";
 }
 @media only screen and (max-width: 480px) {
   html {
