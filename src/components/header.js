@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {/* {siteTitle} */}osnmath
+          {/* {siteTitle} */}oo
           <span style={{ fontWeight: "400" }}>online</span>
         </Link>
       </h1>
