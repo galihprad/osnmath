@@ -57,21 +57,25 @@ const TryOutPage = () => (
       <tr>
         <th>TryOut</th>
         <th>Level</th>
+        <th>Jenjang</th>
         <th>Waktu</th>
       </tr>
       <tr>
         <td>KSN-3</td>
         <td>KSN (Nasional)</td>
+        <td>SMA</td>
         <td>Sabtu, 6 November 2021</td>
       </tr>
       <tr>
         <td>KSN-2</td>
         <td>KSN (Nasional)</td>
+        <td>SMA</td>
         <td>Sabtu, 30 Oktober 2021</td>
       </tr>
       <tr>
         <td>KSN-1</td>
         <td>KSN (Nasional)</td>
+        <td>SMA</td>
         <td>Sabtu, 23 Oktober 2021</td>
       </tr>
     </table>
