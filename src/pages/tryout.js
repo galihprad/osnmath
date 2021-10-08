@@ -27,6 +27,7 @@ const TryOutPage = () => (
         <a
           href="https://forms.gle/wBT4emCkfyUqjnN16"
           style={{ color: "#009688" }}
+          target="_blank"
         >
           link ini
         </a>
