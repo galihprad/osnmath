@@ -23,7 +23,7 @@ const IndexPage = () => (
     <p>
       Kami menyediakan{" "}
       <Link
-        to="/tryout"
+        to="/materi"
         style={{
           color: `#009688`,
         }}
